@@ -46,7 +46,7 @@ echo ">>> Cherry picking Soong patches..."
 cd build/soong
 git remote add akram-arc https://github.com/akram-arc/android_build_soong.git 2>/dev/null || true
 git fetch akram-arc
-git cherry-pick 8aabb97294d0caf99ec90b3677c4b81580faddf4
+git cherry-pick 8aabb97294d0caf99ec90b3677c4b81580faddf4 d23654901a85bebc1bddb247c7526ea179b12bb6
 cd ../..
 
 
